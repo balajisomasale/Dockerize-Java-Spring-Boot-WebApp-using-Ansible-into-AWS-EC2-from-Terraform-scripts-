@@ -18,4 +18,4 @@
       enabled: yes
   - name: Installing Docker SDK for python3
     command: pip3 install docker
-~
+
