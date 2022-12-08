@@ -15,8 +15,11 @@ Using AWS, We will create a ansible server(dummy WebApp) where our application w
 Building Jenkins pipeline : 
 
 Stage 1: The Spring boot application code from Github 
+
 Stage 2: Ansible will be installed into dummy server and code will be sent to WebApp server 
+
 Stage 3: using Ansible, Docker will be installed by using ansible-playbook (inventories)
+
 Stage 4: Building Docker image and Running container in the WebApp server 
 
 Below is the pipeline flow : 
