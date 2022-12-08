@@ -1,4 +1,4 @@
-package com.example.demodeploy;
+package com.javatechie.spring.boot.docker.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,15 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class DemoDeployApplication {
+public class SpringBootDockerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoDeployApplication.class, args);
+	@GetMapping("/message")
+	public String getMessage() {
+		return "Welcome to JavaTechie..!!";
 	}
 
-	@GetMapping("/")
-	public String home(){
-		return "Welcome Home";
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDockerApplication.class, args);
 	}
 
 }
