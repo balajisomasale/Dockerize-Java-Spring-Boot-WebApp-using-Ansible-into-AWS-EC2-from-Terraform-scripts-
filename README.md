@@ -23,8 +23,15 @@ Below is the pipeline flow :
 
 ![image](https://user-images.githubusercontent.com/35003840/206587817-5c8a4e87-e1e4-478e-b5ca-33bff73385c7.png)
 
+Note : Getting small error while deploying the application and it is due to the java release versions.
+Due to limited time, could not troubleshoot more!
+
+Error : Java 11 issues
 
 
+![image](https://user-images.githubusercontent.com/35003840/206588672-3674af29-116e-4477-8c93-1290ae43d61d.png)
+
+----- EOF --- 
 
 
 
