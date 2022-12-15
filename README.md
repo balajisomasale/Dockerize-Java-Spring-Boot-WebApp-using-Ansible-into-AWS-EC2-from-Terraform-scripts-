@@ -16,11 +16,16 @@ Building Jenkins pipeline :
 
 Stage 1: The Spring boot application code from Github 
 
-Stage 2: Ansible will be installed into dummy server and code will be sent to WebApp server 
+Whenever there is any change in your Github repo, a JENKINS job will be created by using `GITHUB WEBHOOKS`
 
-Stage 3: using Ansible, Docker will be installed by using ansible-playbook (inventories)
+![image](https://user-images.githubusercontent.com/35003840/207897270-c08b9e3c-ff26-4e48-8206-9a4869650be1.png)
 
-Stage 4: Building Docker image and Running container in the WebApp server 
+
+Stage 2: Ansible will be installed into dummy server and `code` will be sent to `WebApp server` 
+
+Stage 3: using `Ansible`, Docker will be installed by using `ansible-playbook (inventories)`
+
+Stage 4: Building `Docker image` and Running `container` in the WebApp server 
 
 Below is the pipeline flow : 
 
